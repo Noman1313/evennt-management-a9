@@ -8,7 +8,6 @@ import RightSide from "./RightSide";
 const Home = () => {
 
     const datas = useLoaderData();
-    console.log(datas);
 
     return (
         <div>

@@ -3,6 +3,7 @@ import Root from "../layout/Root";
 import Home from "../pages/Home/Home";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
+import CardDetails from "../pages/Home/CardDetails";
 
 
 const router = createBrowserRouter([
@@ -13,7 +14,11 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Home></Home>,
-                loader: () => fetch('/fakeDate.json')
+                loader: () => fetch('/fakeData.json')
+            },
+            {
+                path:'/cardDetails/:id',
+                element:<CardDetails></CardDetails>
             },
             {
                 path: '/login',

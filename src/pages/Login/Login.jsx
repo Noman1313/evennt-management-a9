@@ -6,8 +6,9 @@ import { AuthContext } from "../../routes/AuthProvider";
 const Login = () => {
 
     const { signIn } = useContext(AuthContext)
+
     const location = useLocation()
-    console.log('naaa', location);
+    
     const navigate = useNavigate()
 
     const handleLogin = (e) => {
