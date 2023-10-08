@@ -3,7 +3,7 @@
 
 const Slider = () => {
     return (
-        <div className="border-2 border-red-600 max-w-6xl mx-auto mt-3">
+        <div className="max-w-6xl mx-auto mt-3">
             <div className="carousel w-full">
                 <div id="slide1" className="carousel-item relative w-full">
                     <img src="https://i.ibb.co/5ncbVRX/weeding.png" className="w-full" />

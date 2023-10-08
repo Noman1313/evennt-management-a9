@@ -4,7 +4,7 @@ const HomeCard = ({ data }) => {
     console.log(data);
     return (
         <div>
-            <div className="card w-96 bg-base-100 shadow-xl mb-4">
+            <div className="card  bg-base-100 shadow-xl mb-4">
                 <figure><img src={image} alt="Shoes" className="w-full h-60" /></figure>
                 <div className="card-body">
                     <h2 className="card-title font-bold">{name}</h2>
