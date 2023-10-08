@@ -1,9 +1,11 @@
 import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../routes/AuthProvider";
+import GoogleLogin from "../GoogleLogin/GoogleLogin";
 
 
 const Login = () => {
+    
 
     const { signIn } = useContext(AuthContext)
 
@@ -18,11 +20,13 @@ const Login = () => {
         const password = form.get('password')
         console.log(email, password);
 
+        
+
 
         signIn(email, password)
             .then(result => {
                 console.log(result.user);
-                navigate( location?.state ? location.state : '/')
+                navigate( location?.state ? location.state : '/home')
             })
             .catch(error => {
                 console.error(error);
@@ -58,6 +62,7 @@ const Login = () => {
                             <button className="btn btn-primary">Login</button>
                         </div>
                         <p className="text-center mt-5">Do not Have An Account ? <Link className="text-blue-600 font-bold" to='/register'>Register</Link></p>
+                        <GoogleLogin></GoogleLogin>
                     </form>
                 </div>
             </div>

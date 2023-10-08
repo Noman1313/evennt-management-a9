@@ -4,8 +4,8 @@ import { AuthContext } from "../../../routes/AuthProvider";
 
 const Navbar = () => {
 
-    const { logOut } = useContext(AuthContext)
-
+    const { user, logOut } = useContext(AuthContext)
+   
     const handleSignOut = () => {
         logOut()
             .then(result => {
@@ -17,7 +17,7 @@ const Navbar = () => {
     }
 
     const navLinks = <>
-        <li><NavLink to='/'>Home</NavLink></li>
+        <li><NavLink to='/home'>Home</NavLink></li>
         <li><NavLink to='/blog'>Blog</NavLink></li>
         <li><NavLink to='/about'>About</NavLink></li>
         <li><NavLink to='/contact'>Contact Us</NavLink></li>
@@ -50,17 +50,17 @@ const Navbar = () => {
                     <div className="dropdown dropdown-end">
                         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                             <div className="w-10 rounded-full">
-                                <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                <img src={user?.photoURL} />
                             </div>
                         </label>
                         <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
                             <li>
                                 <a className="justify-between">
                                     Profile
-                                    <span className="badge">New</span>
+                                    <span className="badge">{user?.displayName}</span>
                                 </a>
                             </li>
-                            <li onClick={handleSignOut}><Link to='/login'>Logout</Link></li>
+                            <li onClick={handleSignOut}><Link to='/'>Logout</Link></li>
                             {/* <li><a>Logout</a></li> */}
                         </ul>
                     </div>
