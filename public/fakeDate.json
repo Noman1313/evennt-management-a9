@@ -1,0 +1,66 @@
+[
+    {
+        "id": "1",
+        "name": "Wedding",
+        "image": "https://i.ibb.co/5ncbVRX/weeding.png",
+        "event_price": "3999",
+        "description": "Love, joy, and eternal commitment come together in a celebration of a lifetime as  cordially invite you to witness the union of their hearts in holy matrimony. Join us on a journey of love and togetherness as we embark on a new chapter of our lives.The enchanting day will take place on  at the breathtaking where nature's beauty will serve as a backdrop to our love story. As the sun sets, our two souls will become one under the open sky, promising to support, cherish, and uplift each other through all of life's adventures.Our hearts swell with gratitude as we reflect on the journey that brought us here. It is your love, friendship, and unwavering support that have shaped us into the individuals we are today. We are excited to share this momentous occasion with you, our cherished friends and family, as we exchange vows and promises of everlasting love.Please save the date and share in our joy as we create memories that will last a lifetime. Stay tuned for more details, and get ready to witness a day filled with love, laughter, and unforgettable moments.Together, with your blessings, we will embark on this beautiful journey of love, and we can't wait to celebrate with you all.",
+      "button": "Details Now"
+    },
+    {
+        "id": "2",
+        "name": "Birthday Party",
+        "image": "https://i.ibb.co/g7YKykq/Birthday.jpg",
+        "event_price": "2000",
+        "description": "Celebrate your special day in style with our unforgettable birthday party experience! Whether you're turning one or one hundred, our team of expert party planners is here to make your celebration a dream come true.At our venue, you'll step into a world of whimsy and wonder. From enchanting decorations to delicious gourmet cuisine, we have everything you need to create magical memories that will last a lifetime.Picture a room filled with vibrant balloons, shimmering streamers, and a customized birthday banner with your name on it. Your guests will be greeted with a warm welcome, and the festivities will begin with a dazzling array of entertainment options.Our talented entertainers will keep guests of all ages entertained, from thrilling magic shows to lively musical performances. And don't forget the games and activities that will keep the kids laughing and engaged throughout the celebration.Of course, no birthday party is complete without a delicious feast. Indulge in a gourmet buffet featuring an array of culinary delights, from mouthwatering appetizers to decadent desserts. Our talented chefs will cater to your every culinary desire.And what's a birthday without cake? Choose from a variety of delectable cake options, each beautifully crafted and customized to match your theme. Make a wish, blow out the candles, and savor the sweetness of the moment.Capture the magic of your day with a professional photographer who will document every smile, hug, and dance move. You'll receive a collection of stunning photos to cherish forever.As the day comes to a close, bid farewell to your guests with party favors that will leave them with a piece of the celebration. Our commitment to excellence ensures that your birthday party will be a joyous occasion filled with love, laughter, and cherished memories.",
+        "button": "Details Now"
+    },
+    {
+        "id": "3",
+        "name": "Anniversary",
+        "image": "https://i.ibb.co/pPkLzSP/Anniversaries-2.webp",
+        "event_price": "1495",
+        "description": "Celebrate your special day with us! At jim Anniversary Venue, we take pride in creating unforgettable moments that will be cherished for a lifetime. Whether it's your first anniversary or a milestone celebration, our dedicated team is here to make it truly remarkable. From romantic candlelit dinners to grand anniversary parties, we offer a range of customizable packages to suit your preferences. Our elegantly decorated banquet halls provide the perfect backdrop for your anniversary festivities. Enjoy a delectable culinary experience with our gourmet menu, crafted with love and care. As you and your partner reflect on your journey together, let us handle all the details. From arranging live music and entertainment to creating personalized decor that tells your unique love story, we leave no stone unturned in ensuring your anniversary is as special as your love. Your happiness is our priority, and we strive to make your anniversary a day filled with joy, laughter, and unforgettable memories. Make this anniversary one for the books with jim Anniversary Venue, where love stories are celebrated in style",
+        "button": "Details Now"
+    },
+    {
+        "id": "4",
+        "name": "Engagement Party",
+        "image": "https://i.ibb.co/DpsJ9W5/Engagement.webp",
+        "event_price": "2099",
+        "description": "Join us for a spectacular evening of joy and celebration as we announce the engagement of [Couple's Names], a love story that has captured our hearts. Our Engagement Party is set to take place on November 15, 2023, at the exquisite Grand Garden Hall in the heart of Celebrationville. This event promises to be a night filled with love, laughter, and unforgettable memories.The Grand Garden Hall will be adorned with elegant décor and soft lighting, creating a magical atmosphere. Guests can indulge in a delectable buffet of gourmet cuisine, including an array of mouthwatering appetizers and sumptuous entrées. A live band will provide a melodic backdrop, encouraging everyone to hit the dance floor and celebrate the couple's journey towards forever.As the night unfolds, raise a toast to [Couple's Names] and their commitment to a lifetime of love. Don't miss the chance to be a part of this joyous occasion. Dress your best and get ready for an evening of enchantment and merriment. We can't wait to share this special moment with you!",
+        "button": "Details Now"
+    },
+    {
+        "id": "5",
+        "name": "Retirement Party",
+        "image": "https://i.ibb.co/8jLtjf5/retirement-4.jpg",
+        "event_price": "1599",
+        "description": "Join us for an unforgettable evening as we celebrate the retirement of our dear colleague, John Smith. After a long and successful career spanning over three decades, John is ready to bid farewell to the hustle and bustle of the corporate world. It's time to kick back, relax, and enjoy the fruits of his labor!The Grand Hall Events Center has been transformed into a haven of joy for this special occasion. We'll have a delicious buffet featuring John's favorite dishes and a variety of beverages to toast to his future adventures.Throughout the evening, you'll have the chance to share your fond memories and best wishes with John. We'll have a photo booth, where you can capture the moments, and a heartfelt tribute video to showcase his remarkable journey.Dress code is smart-casual, and we encourage you to bring your dancing shoes because we have a live band playing all your favorite tunes!Don't miss this chance to honor and celebrate John's retirement. Please RSVP by December 5th, and let's make this retirement party a night to remember!",
+        "button": "Details Now"
+    },
+    {
+        "id": "6",
+        "name": "Baby shower",
+        "image": "https://i.ibb.co/nsptBkb/baby.jpg",
+        "event_price": "1000",
+        "description": "Welcome to a heartwarming baby shower celebration in honor of the upcoming arrival of our precious bundle of joy! Join us for an unforgettable day filled with love, laughter, and excitement as we prepare to welcome a new member into our family.We've chosen a charming garden setting for this special occasion, where the sweet scent of flowers will mirror the sweetness of our growing family. Be prepared for a day of games, delightful treats, and delightful conversations with friends and family.As we eagerly await the arrival of our little one, your presence will make this day even more memorable. Don't forget to bring your warm wishes and perhaps a small gift for the baby, as we create lasting memories and cherish the moments leading up to this new chapter in our lives.We look forward to celebrating with you and sharing the joy of this remarkable journey into parenthood. Please RSVP by December 1st to ensure we have enough treats and surprises for everyone!",
+        "button": "Details Now"
+    },
+    {
+        "id": "7",
+        "name": "Product 7",
+        "image": "https://example.com/product7.jpg",
+        "event_price": "2250",
+        "description": "Elegant design and top-notch quality.",
+        "button": "Details Now"
+    },
+    {
+        "id": "8",
+        "name": "Product 8",
+        "image": "https://example.com/product8.jpg",
+        "event_price": "1999",
+        "description": "Simplify your life with this innovative product.",
+        "button": "Details Now"
+    }
+]
