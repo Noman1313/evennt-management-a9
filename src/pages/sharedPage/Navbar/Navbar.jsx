@@ -5,7 +5,7 @@ import { AuthContext } from "../../../routes/AuthProvider";
 const Navbar = () => {
 
     const { user, logOut } = useContext(AuthContext)
-   
+
     const handleSignOut = () => {
         logOut()
             .then(result => {
@@ -60,8 +60,8 @@ const Navbar = () => {
                                     <span className="badge">{user?.displayName}</span>
                                 </a>
                             </li>
+
                             <li onClick={handleSignOut}><Link to='/'>Logout</Link></li>
-                            {/* <li><a>Logout</a></li> */}
                         </ul>
                     </div>
                 </div>

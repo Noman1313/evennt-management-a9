@@ -46,21 +46,5 @@
         "event_price": "1000",
         "description": "Welcome to a heartwarming baby shower celebration in honor of the upcoming arrival of our precious bundle of joy! Join us for an unforgettable day filled with love, laughter, and excitement as we prepare to welcome a new member into our family.We've chosen a charming garden setting for this special occasion, where the sweet scent of flowers will mirror the sweetness of our growing family. Be prepared for a day of games, delightful treats, and delightful conversations with friends and family.As we eagerly await the arrival of our little one, your presence will make this day even more memorable. Don't forget to bring your warm wishes and perhaps a small gift for the baby, as we create lasting memories and cherish the moments leading up to this new chapter in our lives.We look forward to celebrating with you and sharing the joy of this remarkable journey into parenthood. Please RSVP by December 1st to ensure we have enough treats and surprises for everyone!",
         "button": "Details Now"
-    },
-    {
-        "id": "7",
-        "name": "Product 7",
-        "image": "https://example.com/product7.jpg",
-        "event_price": "2250",
-        "description": "Elegant design and top-notch quality.",
-        "button": "Details Now"
-    },
-    {
-        "id": "8",
-        "name": "Product 8",
-        "image": "https://example.com/product8.jpg",
-        "event_price": "1999",
-        "description": "Simplify your life with this innovative product.",
-        "button": "Details Now"
     }
 ]

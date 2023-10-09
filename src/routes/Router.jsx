@@ -7,6 +7,7 @@ import CardDetails from "../pages/Home/CardDetails";
 import Blog from "../pages/Blog/Blog";
 import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
+import PrivateRoute from "./PrivateRoute";
 
 
 const router = createBrowserRouter([
@@ -16,12 +17,13 @@ const router = createBrowserRouter([
         children: [
             {
                 path: '/home',
-                element: <Home></Home>,
+                element: <PrivateRoute><Home></Home></PrivateRoute>,
                 loader: () => fetch('/fakeData.json')
             },
             {
                 path:'/cardDetails/:id',
-                element:<CardDetails></CardDetails>
+                element:<PrivateRoute><CardDetails></CardDetails></PrivateRoute>,
+                loader: () => fetch('/fakeData.json')
             },
             {
                 path:'/blog',

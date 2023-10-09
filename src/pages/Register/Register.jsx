@@ -16,9 +16,10 @@ const Register = () => {
         console.log(e.currentTarget)
         const form = new FormData(e.currentTarget)
         const name = form.get('name')
+        const photo = form.get('photo')
         const email = form.get('email')
         const password = form.get('password')
-        console.log(name, email, password);
+        console.log(name, photo, email, password);
 
         setValidPass('')
         if(password.length < 6){
@@ -63,6 +64,12 @@ const Register = () => {
                                 <span className="label-text">Name</span>
                             </label>
                             <input type="text" placeholder="your name" name="name" className="input input-bordered" required />
+                        </div>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text">Photo URL</span>
+                            </label>
+                            <input type="text" placeholder="photo url" name="pgoto" className="input input-bordered" required />
                         </div>
                         <div className="form-control">
                             <label className="label">
