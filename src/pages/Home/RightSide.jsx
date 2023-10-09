@@ -3,16 +3,26 @@ import { FaFacebook, FaGithub, FaGoogle, FaInstagram, FaTwitter } from 'react-ic
 const RightSide = () => {
     return (
         <div>
-            
+
             <div className='p-5 space-y-3 mb-6'>
-                <h2 className="text-xl font-semibold text-center">Login With</h2>
+                <h2 className="text-xl font-semibold text-center">Event category</h2>
                 <button className="btn btn-outline w-full">
-                    <FaGoogle></FaGoogle>
-                    Login With Google
+                    Wedding
                 </button>
                 <button className="btn btn-outline w-full">
-                    <FaGithub></FaGithub>
-                    Login With Github
+                    Birthday Party
+                </button>
+                <button className="btn btn-outline w-full">
+                    Anniversary
+                </button>
+                <button className="btn btn-outline w-full">
+                    Engagement Party
+                </button>
+                <button className="btn btn-outline w-full">
+                    Retirement  Party
+                </button>
+                <button className="btn btn-outline w-full">
+                    Baby shower
                 </button>
             </div>
             <div className='p-5  mb-6'>
@@ -29,6 +39,9 @@ const RightSide = () => {
                     <FaInstagram className='text-red-600'></FaInstagram>
                     <span className=''>Instagram</span>
                 </a>
+            </div>
+            <div>
+                <h2></h2>
             </div>
         </div>
     );

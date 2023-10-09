@@ -9,7 +9,7 @@ import toast from "react-hot-toast";
 const Register = () => {
 
 
-    const { createUser } = useContext(AuthContext)
+    const { createUser, handleUpdateProfile } = useContext(AuthContext)
     const navigate = useNavigate()
 
     const handleRegister = (e) => {
@@ -38,10 +38,13 @@ const Register = () => {
 
         // createUser
         createUser(email, password)
-            .then(result => {
-                console.log(result.user);
-                toast.success('Log in successful')
-                navigate('/home')
+            .then(res => {
+                handleUpdateProfile(name, photo)
+                    .then(() => {
+
+                        toast.success('Log in successful')
+                        navigate('/home')
+                    })
             })
             .catch(error => {
                 toast.error(error.message);
@@ -72,7 +75,7 @@ const Register = () => {
                             <label className="label">
                                 <span className="label-text">Photo URL</span>
                             </label>
-                            <input type="text" placeholder="photo url" name="pgoto" className="input input-bordered" required />
+                            <input type="text" placeholder="photo url" name="photo" className="input input-bordered" required />
                         </div>
                         <div className="form-control">
                             <label className="label">
