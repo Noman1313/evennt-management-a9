@@ -1,3 +1,5 @@
+live link :- https://event-management-assignm-6aef3.web.app/
+
 1. Write the correct answer from the following options and give an explanation (2-5 lines).
 let greeting;
 greetign = {};

@@ -13,17 +13,17 @@ const About = () => {
 
                     <span className="text-xl font-bold">**Planning and Preparation:**</span><br />
 
-                    Successful social event management begins with meticulous planning and preparation. This phase involves defining the event's purpose, setting clear goals and objectives, and establishing a budget. Event planners must also identify a target audience and choose a suitable date and venue.<br />
+                    Successful social event management begins with meticulous planning and preparation. This phase involves defining the events purpose, setting clear goals and objectives, and establishing a budget. Event planners must also identify a target audience and choose a suitable date and venue.<br />
 
                     
                     <span className="text-xl font-bold">**Budgeting:**</span><br />
 
-                    Establishing a budget is essential to ensure that the event remains financially viable. The budget should cover all expenses, including venue rental, catering, entertainment, decorations, and marketing. It's crucial to allocate funds wisely to prioritize the most critical aspects of the event.<br />
+                    Establishing a budget is essential to ensure that the event remains financially viable. The budget should cover all expenses, including venue rental, catering, entertainment, decorations, and marketing. Its crucial to allocate funds wisely to prioritize the most critical aspects of the event.<br />
 
                     
                     <span className="text-xl font-bold">**Venue Selection:**</span><br />
 
-                    Selecting the right venue is a pivotal decision in social event management. The venue should align with the event's theme and purpose while accommodating the expected number of attendees comfortably. Factors like location, accessibility, and facilities also need consideration.<br />
+                    Selecting the right venue is a pivotal decision in social event management. The venue should align with the events theme and purpose while accommodating the expected number of attendees comfortably. Factors like location, accessibility, and facilities also need consideration.<br />
 
                     
                     <span className="text-xl font-bold">**Marketing and Promotion:**</span><br />
@@ -33,12 +33,12 @@ const About = () => {
                     
                     <span className="text-xl font-bold">**Logistics and Coordination:**</span><br />
 
-                    During the event planning process, logistics are meticulously coordinated. This includes arranging transportation, accommodations, and any necessary permits or licenses. It's essential to have a detailed timeline outlining when each aspect of the event will occur.<br />
+                    During the event planning process, logistics are meticulously coordinated. This includes arranging transportation, accommodations, and any necessary permits or licenses. Its essential to have a detailed timeline outlining when each aspect of the event will occur.<br />
 
                     
                     <span className="text-xl font-bold">**Entertainment and Activities:**</span><br />
 
-                    Social events often feature entertainment and activities to engage attendees and enhance the overall experience. These can range from live music and dance performances to interactive games and workshops. The choice of entertainment should align with the event's theme and target audience.<br />
+                    Social events often feature entertainment and activities to engage attendees and enhance the overall experience. These can range from live music and dance performances to interactive games and workshops. The choice of entertainment should align with the events theme and target audience.<br />
 
                     
                     <span className="text-xl font-bold">**Catering and Food Services:**</span><br />
@@ -48,7 +48,7 @@ const About = () => {
                     
                     <span className="text-xl font-bold">**Decorations and Theme:**</span><br />
 
-                    The event's theme and decorations contribute to its atmosphere and overall appeal. Event managers work closely with decorators to ensure that the venue is adorned according to the chosen theme, creating a cohesive and immersive experience for attendees.<br />
+                    The events theme and decorations contribute to its atmosphere and overall appeal. Event managers work closely with decorators to ensure that the venue is adorned according to the chosen theme, creating a cohesive and immersive experience for attendees.<br />
 
                     
                     <span className="text-xl font-bold">**Staffing and Security:**</span><br />

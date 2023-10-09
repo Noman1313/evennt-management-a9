@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 const HomeCard = ({ data }) => {
     const { image, name, description, event_price, button, id } = data;
 
     return (
         <div>
-            <div className="card  bg-base-100 shadow-xl mb-4">
+            <div className="card  bg-base-100 shadow-xl mb-4" data-aos="zoom-in-up" data-aos-duration="3000">
                 <figure><img src={image} alt="Shoes" className="w-full h-60" /></figure>
                 <div className="card-body">
                     <h2 className="card-title font-bold">{name}</h2>
@@ -21,3 +22,7 @@ const HomeCard = ({ data }) => {
 };
 
 export default HomeCard;
+
+HomeCard.propTypes ={
+    data: PropTypes.object
+}

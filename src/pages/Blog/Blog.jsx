@@ -7,7 +7,9 @@ const Blog = () => {
         <div>
             <Navbar></Navbar>
             <div className="grid md:grid-cols-2 max-w-4xl mx-auto">
-                <div className="card card-compact w-96 mt-5 bg-base-100 shadow-xl">
+                <div className="card card-compact w-96 mt-5 bg-base-100 shadow-xl" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                     <figure><img src="https://i.ibb.co/5ncbVRX/weeding.png" alt="Shoes" /></figure>
                     <div className="card-body">
 
@@ -17,7 +19,9 @@ const Blog = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact w-96 mt-5 bg-base-100 shadow-xl">
+                <div className="card card-compact w-96 mt-5 bg-base-100 shadow-xl" data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                     <figure><img src="https://i.ibb.co/g7YKykq/Birthday.jpg" alt="Shoes" /></figure>
                     <div className="card-body">
 
@@ -27,7 +31,9 @@ const Blog = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact w-96 mt-5 bg-base-100 shadow-xl">
+                <div className="card card-compact w-96 mt-5 bg-base-100 shadow-xl" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                     <figure><img src="https://i.ibb.co/pPkLzSP/Anniversaries-2.webp" alt="Shoes" /></figure>
                     <div className="card-body">
 
@@ -37,7 +43,9 @@ const Blog = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact w-96 mt-5 bg-base-100 shadow-xl">
+                <div className="card card-compact w-96 mt-5 bg-base-100 shadow-xl" data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                     <figure><img src="https://i.ibb.co/8jLtjf5/retirement-4.jpg" alt="Shoes" /></figure>
                     <div className="card-body">
 
