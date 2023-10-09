@@ -8,12 +8,14 @@ import Blog from "../pages/Blog/Blog";
 import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
 import PrivateRoute from "./PrivateRoute";
+import NotFound from "../pages/NotFound/NotFound";
 
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <Root></Root>,
+        errorElement:<NotFound></NotFound>,
         children: [
             {
                 path: '/home',
@@ -21,21 +23,21 @@ const router = createBrowserRouter([
                 loader: () => fetch('/fakeData.json')
             },
             {
-                path:'/cardDetails/:id',
-                element:<PrivateRoute><CardDetails></CardDetails></PrivateRoute>,
+                path: '/cardDetails/:id',
+                element: <PrivateRoute><CardDetails></CardDetails></PrivateRoute>,
                 loader: () => fetch('/fakeData.json')
             },
             {
-                path:'/blog',
-                element:<Blog></Blog>
+                path: '/blog',
+                element: <PrivateRoute><Blog></Blog></PrivateRoute>
             },
             {
-                path:'/about',
-                element:<About></About>
+                path: '/about',
+                element: <PrivateRoute><About></About></PrivateRoute>
             },
             {
-                path:'/contact',
-                element:<Contact></Contact>
+                path: '/contact',
+                element: <PrivateRoute><Contact></Contact></PrivateRoute>
             },
             {
                 path: '/',

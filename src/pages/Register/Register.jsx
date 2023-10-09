@@ -1,12 +1,13 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../routes/AuthProvider";
 import GoogleLogin from "../GoogleLogin/GoogleLogin";
+import toast from "react-hot-toast";
 
 
 
 const Register = () => {
-    const [validPass, setValidPass] = useState('')
+
 
     const { createUser } = useContext(AuthContext)
     const navigate = useNavigate()
@@ -21,13 +22,14 @@ const Register = () => {
         const password = form.get('password')
         console.log(name, photo, email, password);
 
-        setValidPass('')
-        if(password.length < 6){
-            setValidPass('must be 6 letters')
+
+        if (password.length < 6) {
+
+            toast.error('must be 6 letters')
             return
         }
         else if (/^(?!.*[A-Z])(?!.*[@$!%*?&])/.test(password)) {
-            setValidPass('please give me valid password')
+            toast.error('please give me valid password')
             return;
         }
 
@@ -38,10 +40,11 @@ const Register = () => {
         createUser(email, password)
             .then(result => {
                 console.log(result.user);
+                toast.success('Log in successful')
                 navigate('/home')
             })
             .catch(error => {
-                console.error(error);
+                toast.error(error.message);
             })
 
 
@@ -89,9 +92,6 @@ const Register = () => {
                         <div className="form-control mt-6">
                             <button className="btn btn-primary">Register</button>
                         </div>
-                        {
-                            validPass && <p>{validPass}</p>
-                        }
                         <p className="text-center mt-5">Already Have An Account ? <Link className="text-blue-600 font-bold" to='/'>Login</Link></p>
                         <GoogleLogin></GoogleLogin>
                     </form>
